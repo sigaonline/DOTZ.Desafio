@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DOTZ.Desafio.DAL\DOTZ.Desafio.DAL.csproj" />
+    <ProjectReference Include="..\DOTZ.Desafio.Model\DOTZ.Desafio.Model.csproj" />
+    <ProjectReference Include="..\DOTZ.Desafio.Service.Interface\DOTZ.Desafio.Service.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
